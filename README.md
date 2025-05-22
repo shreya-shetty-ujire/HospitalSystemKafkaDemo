@@ -32,3 +32,10 @@ Content-Type: application/json
   "reason": "Recovery complete"
 }
 ```
+
+
+In this project, I have used Spring's **ApplicationEventPublisher** to showcase the importance of event-driven architecture in a simple and lightweight way. This approach allows different parts of the application to communicate asynchronously and decouples components, improving maintainability and scalability within a single application.
+
+While this example uses in-memory event publishing, similar event-driven patterns can be implemented across distributed microservices using **Apache Kafka**.
+
+---
